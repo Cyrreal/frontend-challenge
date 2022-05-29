@@ -31,7 +31,7 @@ function App() {
     localStorage.favorites = JSON.stringify(favorites);
   }, [favorites]);
 
-  console.log("ЕБУЧИЙ ПЭЙДЖ v1");
+  console.log("Vesion 1");
 
   return (
     <>
