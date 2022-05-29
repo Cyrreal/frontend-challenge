@@ -31,6 +31,8 @@ function App() {
     localStorage.favorites = JSON.stringify(favorites);
   }, [favorites]);
 
+  console.log("ЕБУЧИЙ ПЭЙДЖ v1");
+
   return (
     <>
       <Header />
