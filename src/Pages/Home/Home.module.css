@@ -1,0 +1,24 @@
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 225px);
+  gap: 48px;
+  margin-top: 51px;
+}
+
+.loader {
+  margin-top: 48px;
+  margin-bottom: 31px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
