@@ -31,8 +31,6 @@ function App() {
     localStorage.favorites = JSON.stringify(favorites);
   }, [favorites]);
 
-  console.log("Vesion 1");
-
   return (
     <>
       <Header />
