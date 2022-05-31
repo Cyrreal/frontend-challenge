@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { Header } from "./Components/Header";
 import { Favorites } from "./Pages/Favorites";
 import { Home } from "./Pages/Home";
-import { usePreferences } from "./usePreferences";
+import { usePreferences } from "./Hooks/usePreferences";
 
 export type Cat = {
   width: number;

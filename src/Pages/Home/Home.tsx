@@ -1,10 +1,10 @@
 import type { Cat } from "../../App";
 import { Card } from "../../Components/Card";
 import { useState, useEffect } from "react";
-import { useFetch } from "../../useFetch";
-import { UseEventListenner } from "../../useEventListenner";
+import { useFetch } from "../../Hooks/useFetch";
+import { UseEventListenner } from "../../Hooks/useEventListenner";
 import s from "../Home/Home.module.css";
-import { usePreferences } from "../../usePreferences";
+import { usePreferences } from "../../Hooks/usePreferences";
 type Props = {
   favorites: Cat[];
   addToFavorites: (cats: Cat) => void;

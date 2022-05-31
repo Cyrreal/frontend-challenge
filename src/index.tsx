@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/frontend-challenge">
+    <BrowserRouter basename="/Cyrreal/frontend-challenge">
       <App />
     </BrowserRouter>
   </React.StrictMode>

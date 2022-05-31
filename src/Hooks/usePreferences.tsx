@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Cat } from "./App";
+import { Cat } from "../App";
 export function usePreferences() {
   const saved: Cat[] = JSON.parse(localStorage.getItem("favorites") || "[]");
   const [favorites, setFavorites] = useState<Cat[]>(saved);
